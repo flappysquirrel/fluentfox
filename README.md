@@ -13,4 +13,20 @@ I would like an installation script for linux as well.
 
 Something like ./install.sh. 
 
-Bye! 
+If you want to try it out, do this. 
+
+go to about:config in firefox.
+
+type or copy and paste toolkit.legacyUserProfileCustomizations.stylesheets and change it to true. 
+
+If it is already true leave it alone! 
+
+now go to about:support in firefox. 
+
+click on open directory. 
+
+create a new file called chrome.
+
+now download the userChrome.css file and paste it into the chrome folder. 
+
+Enjoy! 
