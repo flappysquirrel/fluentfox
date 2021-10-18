@@ -7,7 +7,9 @@ So, I created this repository.
 
 I will check this often. 
 
-anyone should be able to make changes to this repository. 
+anyone should be able to make changes to this repository.
+
+How to install
 
 If you want to try it out, do this. 
 
