@@ -7,11 +7,7 @@ So, I created this repository.
 
 I will check this often. 
 
-anyone will be able to make changes to this repository. 
-
-I would like an installation script for linux as well.
-
-Something like ./install.sh. 
+anyone should be able to make changes to this repository. 
 
 If you want to try it out, do this. 
 
