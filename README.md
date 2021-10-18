@@ -1,6 +1,13 @@
 # fluentfox
 
 ## Install
+I will check this often. 
+
+anyone will be able to make changes to this repository.
+
+How to install
+
+If you want to try it out, do this. 
 
 go to about:config in firefox.
 
