@@ -46,6 +46,20 @@ A combination of FluentDotFox and some css code I got from [this superuser post]
 This includes fancy effects as well!
 I'm not a developer, I only report issues... But I wanted a Fluent style Firefox for everyone to use. So, I created this repository.
 
+##Credits
+
+I'm giving credit to these people since it helped me in making this repository awesome!
+
+Thanks to moderpach for FluentDotFirefox 
+
+Thanks to pellaeon for firefox-91plus-photon-userchrome-master
+
+Thanks to the superuser site since I borrowed some code from the post. 
+
+And last but not the least...
+Ali.sh (for making some changes to readme.md) Thanks ali
+
+
 ##Contributing
 
 I will check this often.
