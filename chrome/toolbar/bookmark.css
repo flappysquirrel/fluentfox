@@ -1,0 +1,5 @@
+#navigator-toolbox toolbarbutton.bookmark-item:not(.subviewbutton) {
+    padding: 6px !important;
+    border-radius: 8px !important;
+    transition: background-color .12s ease-in !important;
+}
