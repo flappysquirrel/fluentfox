@@ -35,7 +35,7 @@ Paste the chrome folder
 
 Restart Firefox
 
-Note: If you don't like the tab size you can change it by going to about:config again and paste browser.tabs.tabMinWidth and change it to the number you want.
+Note: If you don't like the tab size you can change it by going to about:config again and paste browser.tabs.tabMinWidth and change it to the number you want. This is because the density setting in customize toolbar feature of Firefox does not change the tab size. This little tweak is easy to do and requires only a couple of clicks. 
 
 Enjoy!
 
@@ -55,3 +55,5 @@ Anyone will be able to make changes to this repository!
 Make a pull request and I shall merge it or contact you if needed.
 
 All contributions are welcome!
+
+:) 
