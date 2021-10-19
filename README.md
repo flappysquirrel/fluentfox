@@ -17,6 +17,10 @@ How to install
 
 If you want to try it out, do this.
 
+Click code button and then click download zip to download this project so you can use this on Firefox
+
+Extract the folder
+
 go to about:config in firefox.
 
 type or copy and paste toolkit.legacyUserProfileCustomizations.stylesheets and change it to true.
