@@ -42,7 +42,7 @@ Enjoy!
 ## About
 
 
-A combination of FluentDotFox and some css code I got from [this superuser post](https://superuser.com/questions/1653533/how-to-switch-back-to-firefox-old-style-of-tabs) And in 2021 I also combined firefox-91plus-photon-userchrome-master! The goal is to make an exact replica of Microsoft Edge™ Legacy in Mozilla Firefox.
+A combination of FluentDotFirefox and Firefox-91plus-photon-userchrome-master! The goal is to make an exact replica of Microsoft Edge™ Legacy in Mozilla Firefox.
 This includes fancy effects as well!
 I'm not a developer, I only report issues... But I wanted a Fluent style Firefox for everyone to use. So, I created this repository.
 
@@ -52,13 +52,10 @@ I'm giving credit to these people since it helped me in making this repository a
 
 Thanks to moderpach for FluentDotFirefox 
 
-Thanks to pellaeon for firefox-91plus-photon-userchrome-master
-
-Thanks to the superuser site since I borrowed some code from the post. 
+Thanks to pellaeon for firefox-91plus-photon-userchrome-master 
 
 And last but not the least...
 Ali.sh (for making some changes to readme.md) Thanks ali
-
 
 ## Contributing
 
