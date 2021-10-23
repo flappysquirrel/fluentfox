@@ -39,6 +39,9 @@ Note: If you don't like the tab size you can change it by going to about:config 
 
 Enjoy!
 
+## For better experience
+  go to about:config in firefox and type general.smoothScroll.msdPhysics.enabled and set it to true.
+
 ## About
 
 
