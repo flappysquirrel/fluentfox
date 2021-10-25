@@ -55,7 +55,13 @@ Clues below
 
 Microsoft edge (chromium) is getting fluent design. Soon edge (chromium) will look like edge (legacy)(with rounded corners)
 
-Works on Windows 11 as well! 
+Works on Windows 11 as well!
+
+## Clues
+These are the reasons for the new projects guess what names I'll give them.
+ Rounded corners
+ Wibdows 11
+ Edge(Chromium)
 
 ## Credits
 
