@@ -50,9 +50,12 @@ I'm not a developer, I only report issues... But I wanted a Fluent style Firefox
 
 ## News 
 
-New repository coming soon! 
+2 New projects coming soon! (Guess what they are)
+Clues below 
 
 Microsoft edge (chromium) is getting fluent design. Soon edge (chromium) will look like edge (legacy)(with rounded corners)
+
+Works on Windows 11 as well! 
 
 ## Credits
 
