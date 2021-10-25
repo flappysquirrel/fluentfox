@@ -46,7 +46,6 @@ Enjoy!
 
 
 A combination of FluentDotFirefox and Firefox-91plus-photon-userchrome-master! The goal is to make an exact replica of Microsoft Edge™ Legacy in Mozilla Firefox.
-This includes fancy effects as well!
 I'm not a developer, I only report issues... But I wanted a Fluent style Firefox for everyone to use. So, I created this repository.
 
 ## News 
