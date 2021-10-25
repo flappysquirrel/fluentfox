@@ -6,6 +6,8 @@
   I need some help with changing the loading animation of tabs in firefox.
   Any kind of help is appreciated! 
   Make a pull request or email me at yuvanmichael@outlook.com
+  ### ![Picture 4](https://user-images.githubusercontent.com/86945563/138727051-0936c42d-db1c-4299-989a-d7db4885c2db.png)
+
 
 ## Improvements
 
