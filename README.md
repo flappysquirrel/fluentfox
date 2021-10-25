@@ -82,9 +82,10 @@ These are the reasons for the new projects guess what names I'll give them.
  
 ## New combination's changes (Firefox UWP style)
 
-  ### ![Picture 2](https://user-images.githubusercontent.com/86945563/138727960-41b3f1ef-e8cd-427e-b6b3-07ef42253e6e.png
+   ![Picture 2](https://user-images.githubusercontent.com/86945563/138728674-040eb630-f6d0-466c-9192-af47071db6c4.png)
 
-  ### ![Picture 3](https://user-images.githubusercontent.com/86945563/138728036-e06293a8-9954-4b94-bb10-524a19aadc7b.png)
+
+   ![Picture 3](https://user-images.githubusercontent.com/86945563/138728036-e06293a8-9954-4b94-bb10-524a19aadc7b.png)
 
 
 ## Credits
