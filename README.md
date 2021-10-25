@@ -81,6 +81,7 @@ These are the reasons for the new projects guess what names I'll give them.
  Edge(Chromium)
  
 ## New combination's changes (Firefox UWP style)
+
   ### ![Picture 2](https://user-images.githubusercontent.com/86945563/138727960-41b3f1ef-e8cd-427e-b6b3-07ef42253e6e.png
 
   ### ![Picture 3](https://user-images.githubusercontent.com/86945563/138728036-e06293a8-9954-4b94-bb10-524a19aadc7b.png)
