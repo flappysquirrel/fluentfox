@@ -7,6 +7,7 @@
   Any kind of help is appreciated! 
   Make a pull request or email me at yuvanmichael@outlook.com
   ### ![Picture 4](https://user-images.githubusercontent.com/86945563/138727051-0936c42d-db1c-4299-989a-d7db4885c2db.png)
+    To the Windows 10 loading wheel
 
 
 ## Improvements
@@ -16,9 +17,13 @@
   Better visuals!
   Easier to install manually!
   Some Improvements to readme.md
+  New Combination! 
   More coming soon...
 
 ## Install
+
+### ![Picture 1](https://user-images.githubusercontent.com/86945563/138727515-0171f4ad-de9d-4697-b1c0-76169382dbd7.png)
+
 
 How to install
 
@@ -57,6 +62,8 @@ I'm not a developer, I only report issues... But I wanted a Fluent style Firefox
 
 ## News 
 
+New Combination! (Firefox UWP style project) Details below. 
+
 2 New projects coming soon! (Guess what they are)
 Clues below 
 
@@ -72,10 +79,18 @@ These are the reasons for the new projects guess what names I'll give them.
  Rounded corners
  Windows 11
  Edge(Chromium)
+ 
+## New combination's changes (Firefox UWP style)
+  ### ![Picture 2](https://user-images.githubusercontent.com/86945563/138727960-41b3f1ef-e8cd-427e-b6b3-07ef42253e6e.png
+
+  ### ![Picture 3](https://user-images.githubusercontent.com/86945563/138728036-e06293a8-9954-4b94-bb10-524a19aadc7b.png)
+
 
 ## Credits
 
 I'm giving credit to these people since it helped me in making this repository awesome!
+
+Thanks to Guerra24 for Firefox UWP style which has bought a lot of changes! 
 
 Thanks to moderpach for FluentDotFirefox 
 
