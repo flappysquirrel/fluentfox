@@ -60,7 +60,7 @@ Works on Windows 11 as well!
 ## Clues
 These are the reasons for the new projects guess what names I'll give them.
  Rounded corners
- Wibdows 11
+ Windows 11
  Edge(Chromium)
 
 ## Credits
