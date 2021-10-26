@@ -58,7 +58,7 @@ Enjoy!
 A combination of FluentDotFirefox, Firefox-91plus-photon-userchrome-master and Firefox UWP style! The goal is to make an exact replica of Microsoft Edge™ Legacy in Mozilla Firefox.
 I'm not a developer, I usually report issues...  But I wanted a Fluent style Firefox for everyone to use. So, I created this repository. 
 
-## I made a lot of commits and changes to this repository. Ali.sh also made some formatting changes to readme.md. So, in case you're using some of the code or made modifications please give this repository and its contributors credit.  
+##  Development of this repository takes a lot of time. I made a lot of commits and changes to this repository. Ali.sh also made some formatting changes to readme.md. So, in case you're using some of the code or made modifications please give this repository and its contributors credit.  
 
 ## Payments
 
