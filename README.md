@@ -111,7 +111,7 @@ These are the reasons for the new projects guess what names I'll give them.
 
 I'm giving credit to these people since it helped me in making this repository awesome!
 
-Thanks to Guerra24 for Firefox UWP style which has bought a lot of changes! 
+Big thanks to Guerra24 for Firefox UWP style which has bought a lot of changes! 
 
 Thanks to moderpach for FluentDotFirefox 
 
