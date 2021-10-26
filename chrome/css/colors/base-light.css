@@ -1,0 +1,69 @@
+/**/
+@media (prefers-color-scheme: light) {
+:root {
+	--uwp-mainwindow: #E6E6E6;
+	--uwp-tabbar-tab-hover: rgb(235, 235, 235);
+	--uwp-tabbar-button-hover: #D5D5D5;
+	--uwp-tabbar-button-hover-active: #BBBBBB;
+	--uwp-navbar-background-hover: #DEDEDE;
+	--uwp-browser: #E6E6E6;
+	--uwp-findbar: #161616;
+	--uwp-autocomplete-list: rgb(233, 233, 233);
+	--uwp-urlbar: transparent;
+	--uwp-urlbar-blur: #FFFFFFC0;
+	--uwp-autocomplete-oneoffs: #333333;
+	--uwp-sidebar: rgb(233, 233, 233);
+	--uwp-sidebar-search: rgb(240, 236, 236);
+	--uwp-sidebar-box: rgb(223, 223, 223);
+	--uwp-statuspanel: rgb(230, 230, 230);
+	--uwp-statuspanel-color: lightgray;
+	--uwp-navbar-button-hover: #E0E0E0;
+
+	--titlebar-min-max-hover-bg-color: #D5D5D5;
+	--titlebar-min-max-active-bg-color: #BBBBBB;
+	--titlebar-close-hover-bg-color: #E81123;
+	--titlebar-close-active-bg-color: #F06F79;
+	--arrowpanel-background: rgb(245, 245, 245) !important;
+	--arrowpanel-dimmed: #CDCDCD !important;
+	--chrome-background-color: black !important;
+	--chrome-secondary-background-color: #2A2A2A !important;
+	--toolbar-bgcolor: rgb(245, 245, 245) !important;
+	--toolbar-color: var(--uwp-global-front) !important;
+	--toolbarbutton-icon-fill-attention: -moz-accent-color !important;
+
+	--uwp-bottom-background: #E6E6E6;
+
+	--uwp-titlebar: black;
+
+	--autocomplete-popup-background: white !important;
+	--autocomplete-popup-color: var(--uwp-global-front) !important;
+	--autocomplete-popup-highlight-background: -moz-accent-color !important;
+	--autocomplete-popup-highlight-color: -moz-accent-color-foreground !important;
+	--autocomplete-popup-hover-background: #cccccc !important;
+	--urlbar-result-hover-bgcolor: #CDCDCD !important;
+
+	--panelview-toolbarbutton-hover-bgcolor: #E0E0E0 !important;
+	--panelview-toolbarbutton-active-bgcolor: #CFCFCF !important;
+	--button-hover-bgcolor: var(--panelview-toolbarbutton-hover-bgcolor) !important;
+	--button-active-bgcolor: var(--panelview-toolbarbutton-active-bgcolor) !important;
+
+	--lwt-sidebar-background-color: var(--uwp-global-back) !important;
+}
+
+:root:-moz-window-inactive {
+	--uwp-titlebar: #4C4C4C;
+}
+
+:root #titlebar {
+	--lwt-toolbarbutton-icon-fill: black !important;
+	--toolbarbutton-icon-fill-opacity: 1 !important;
+}
+
+:root:-moz-window-inactive #titlebar {
+	--lwt-toolbarbutton-icon-fill: gray !important;
+}
+
+.tabbrowser-tab {
+	color: black !important;
+}
+}
