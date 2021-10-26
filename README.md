@@ -55,10 +55,21 @@ Enjoy!
   go to about:config in firefox and type general.smoothScroll.msdPhysics.enabled and set it to true.
 
 ## About
+A combination of FluentDotFirefox, Firefox-91plus-photon-userchrome-master and Firefox UWP style! The goal is to make an exact replica of Microsoft Edge™ Legacy in Mozilla Firefox.
+I'm not a developer, I usually report issues...  But I wanted a Fluent style Firefox for everyone to use. So, I created this repository. 
 
+## I made a lot of commits and changes to this repository. Ali.sh also made some formatting changes to readme.md. So, in case you're using some of the code or made modifications please give this repository and its contributors credit.  
 
-A combination of FluentDotFirefox and Firefox-91plus-photon-userchrome-master! The goal is to make an exact replica of Microsoft Edge™ Legacy in Mozilla Firefox.
-I'm not a developer, I only report issues... But I wanted a Fluent style Firefox for everyone to use. So, I created this repository.
+## Payments
+
+  I don't ask for payments but, if you want to help:
+ 
+ ### The ways you can help me are
+ 1. Use this theme on your Firefox
+ 2. Star this repository to show your appreciation
+ 3. Make changes to this repository and make a pull request if you want (don't hesitate)(feel free to do this.)
+ 4. Star the repository if you like it or you downloaded it. 
+ 5. Encourage other people to use Firefox. 
 
 ## News 
 
