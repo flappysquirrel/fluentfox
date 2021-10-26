@@ -1,0 +1,759 @@
+/* Base tags for chrome:// and about: pages */
+
+@-moz-document regexp("chrome:\/\/(?!devtools).*"), regexp("about:(?!(blank|devtools)).*") {
+
+	:root {
+		--urlbar-popup-url-color: -moz-accent-color !important;
+		scrollbar-color: var(--uwp-scrollbar-thumb) var(--uwp-scrollbar) !important;
+	}
+
+	::selection {
+		color: -moz-accent-color-foreground !important;
+		background-color: -moz-accent-color !important;
+	}
+
+	/* Button */
+	button, .urlbarView-tip-button, .toggle-group-label {
+		-moz-appearance: none !important;
+		padding: 3px !important;
+		background-color: var(--uwp-tags-button) !important;
+		border: 2px var(--uwp-tags-button) solid !important;
+		border-radius: 0px !important;
+		color: var(--uwp-tags-button-color) !important;
+		cursor: default !important;
+		transition: none !important;
+		opacity: 1 !important;
+		box-shadow: none !important;
+		font-weight: normal !important;
+	}
+	button:hover, button[open], .urlbarView-tip-button:hover, .toggle-group-label:hover {
+		border-color: var(--uwp-tags-button-hover) !important;
+	}
+	button:hover:active, .urlbarView-tip-button:hover:active {
+		background-color: var(--uwp-tags-button-hover-active) !important;
+		border-color: var(--uwp-tags-button-hover-active) !important;
+	}
+	button[disabled="true"], button[disabled="true"] .button-text {
+		color: var(--uwp-tags-button-disabled-text) !important;
+	}
+	button[disabled="true"]:hover, button[disabled="true"]:hover:active {
+		background-color: var(--uwp-tags-button) !important;
+		border-color: var(--uwp-tags-button) !important;
+	}
+	button:-moz-focusring {
+		outline: none !important;
+		box-shadow: none !important;
+		/*outline-offset: 0px !important;
+		outline: 1px solid black !important;
+		box-shadow: 0px 0px 0px 3px white, 0px 0px 0px 3px white, 0px 0px 0px 3px white, 0px 0px 0px 3px white !important;*/
+	}
+	.toggle-group-input:enabled:checked + .toggle-group-label {
+		background-color: -moz-accent-color !important;
+		border-color: -moz-accent-color !important;
+		color: -moz-accent-color-foreground !important;
+	}
+	.toggle-group-input:enabled:checked + .toggle-group-label:hover {
+		/* linear-gradient(-moz-accent-color, -moz-accent-color)*/
+		background-image: var(--uwp-tags-button-accent) !important;
+		background-blend-mode: multiply;
+		background-color: var(--uwp-tags-button-accent-mod) !important;
+		border-color: var(--uwp-tags-button-hover) !important;
+	}
+	.toggle-group > .toggle-group-label {
+		margin-right: 5px !important;
+	}
+	.expander-down {
+		background: var(--uwp-dropmarker) center center no-repeat !important;
+		background-color: transparent !important;
+		list-style-image: none !important;
+		padding: 11px !important;
+	}
+	.expander-up {
+		background: var(--uwp-dropmarker) center center no-repeat !important;
+		background-color: transparent !important;
+		list-style-image: none !important;
+		padding: 11px !important;
+		transform: rotate(180deg);
+	}
+	named-deck-button + named-deck-button {
+		margin-left: 24px !important;
+	}
+	button[role="tab"] {
+		background-color: transparent !important;
+		color: var(--uwp-tags-pivot) !important;
+		border: none !important;
+		border-bottom: 2px solid transparent !important;
+		font-size: 20px !important;
+		padding-bottom: 8px !important;
+	}
+	button[role="tab"][aria-selected="true"] {
+		color: var(--uwp-tags-pivot-selected) !important;
+		border-bottom: 2px solid -moz-accent-color !important;
+		padding-bottom: 8px !important;
+	}
+	button[role="tab"]:hover {
+		color: var(--uwp-tags-pivot-hover) !important;
+	}
+	button[role="tab"]:hover:active {
+		background-color: transparent !important;
+	}
+	button[role="tab"][aria-selected="false"]:hover:active {
+		background-color: transparent !important;
+		border-color: transparent !important;
+	}
+
+	/* Text Box */
+	textarea,
+	input:not(#urlbar-input):not(.searchbar-textbox):not(.fake-editable):not([type="radio"]):not([type="checkbox"]):not([type="range"]),
+	.findbar-textbox {
+		-moz-appearance: none !important;
+		padding: 5.5px 5.5px 5.5px 5.5px !important;
+		border: 2px solid var(--uwp-tags-textbox-border) !important;
+		border-radius: 0px !important;
+		background: var(--uwp-tags-textbox) !important;
+		color: var(--uwp-tags-textbox-color) !important;
+		box-shadow: none !important;
+		opacity: 1 !important;
+		transition: none !important;
+		outline: none !important;
+	}
+	textarea:hover,
+	input:not(#urlbar-input):not(.searchbar-textbox):not(.fake-editable):not([type="radio"]):not([type="checkbox"]):not([type="range"]):hover,
+	.findbar-textbox:hover {
+		border: 2px solid var(--uwp-tags-textbox-hover) !important;
+	}
+	textarea:focus,
+	input:not(#urlbar-input):not(.searchbar-textbox):not(.fake-editable):not([type="radio"]):not([type="checkbox"]):not([type="range"]):focus,
+	.findbar-textbox:focus {
+		padding: 5.5px 5.5px 5.5px 5.5px !important;
+		border: 2px solid -moz-accent-color !important;
+		background: white !important;
+		color: black !important;
+	}
+	input[disabled]:not(#urlbar-input):not(.searchbar-textbox):not(.fake-editable):not([type="radio"]):not([type="checkbox"]):not([type="range"]) {
+		background-color: var(--uwp-tags-button) !important;
+		border-color: var(--uwp-tags-button) !important;
+		color: var(--uwp-tags-button-disabled-text) !important;
+	}
+	search-textbox, textbox {
+		-moz-appearance: none !important;
+		background: transparent !important;
+		border: none !important;
+		outline: none !important;
+		box-shadow: none !important;
+		cursor: default !important;
+	}
+	/* Listbox */
+	listbox {
+		-moz-appearance: none !important;
+		background: black !important;
+		border: 1px #333333 solid !important;
+	}
+	listitem {
+		margin: 0px !important;
+		padding: 1px !important;
+		border: none !important;
+		color: white !important;
+	}
+	listitem:hover {
+		background: #202020 !important;
+	}
+	listitem[selected="true"] {
+		background: #404040 !important;
+	}
+	dropmarker:not([native]) { /* Change this */
+		-moz-appearance: none !important;
+		/*margin-right: 0px !important;
+		padding-right: 20px !important;
+		list-style-image: none !important;
+		background: var(--uwp-dropmarker) center center no-repeat !important;*/
+	}
+	dropmarker > .dropmarker-icon {
+		list-style-image: none !important;
+	}
+	/* Check Box */
+	checkbox {
+		opacity: 1 !important;
+	}
+	checkbox > .checkbox-check, input[type="checkbox"] {
+		-moz-context-properties: fill !important;
+		fill: -moz-accent-color-foreground !important;
+		-moz-appearance: none !important;
+		width: 20px !important;
+		height: 20px !important;
+		border: 2px solid var(--uwp-tags-checkbox) !important;
+		border-radius: 0px !important;
+		margin: 0px !important;
+		box-shadow: none !important;
+		background-color: transparent !important;
+	}
+	checkbox:hover > .checkbox-check, input[type="checkbox"]:hover, input[type="checkbox"]:checked:hover, checkbox[checked="true"]:hover > .checkbox-check {
+		border-color: var(--uwp-tags-checkbox-checked-hover) !important;
+	}
+	checkbox:active > .checkbox-check, input[type="checkbox"]:active, input[type="checkbox"]:checked:active, checkbox[checked="true"]:hover:active > .checkbox-check {
+		border-color: var(--uwp-tags-checkbox-checked-active) !important;
+		background-color: var(--uwp-tags-checkbox-checked-active) !important;
+	}
+	input[type="checkbox"]:checked, checkbox[checked="true"] > .checkbox-check {
+		border-color: -moz-accent-color !important;
+		background: -moz-accent-color !important;
+	}
+	checkbox[checked="true"] > .checkbox-check {
+		list-style-image: url("chrome://global/skin/icons/check.svg") !important;
+	}
+	input[type="checkbox"]:checked {
+		background-image: url("chrome://global/skin/icons/check.svg") !important;
+	}
+	input[type="checkbox"] {
+		margin-right: 10px !important;
+	}
+	input[type="checkbox"]:-moz-focusring {
+		outline: none !important;
+	}
+	.checkbox-label-box {
+		color: var(--uwp-global-front);
+		margin-left: 10px !important;
+	}
+	.checkbox-icon {
+		fill: var(--uwp-global-front) !important;
+	}
+
+	/* Check Box Disabled */
+	checkbox[disabled="true"] > .checkbox-label-box {
+		color: var(--uwp-tags-checkbox-disabled) !important;
+	}
+	checkbox[disabled="true"] > .checkbox-check {
+		border-color: var(--uwp-tags-checkbox-disabled) !important;
+		background-color: transparent !important;
+	}
+	checkbox[disabled="true"][checked="true"] > .checkbox-check {
+		fill: var(--uwp-tags-checkbox-disabled) !important;
+	}
+	checkbox[disabled="true"][checked="true"]:hover > .checkbox-check {
+		border-color: var(--uwp-tags-checkbox-disabled) !important;
+	}
+	checkbox[disabled="true"][checked="true"]:hover:active > .checkbox-check {
+		border-color: var(--uwp-tags-checkbox-disabled) !important;
+		background-color: transparent !important;
+	}
+	input[type="checkbox"].toggle-button, input + .slider {
+		background-image: none !important;
+		border-radius: 10px !important;
+		padding: 8px !important;
+		padding-right: 32px !important;
+		border-width: 2px !important;
+	}
+	input[type="checkbox"].toggle-button:hover:checked {
+		border-color: -moz-accent-color !important;
+	}
+	input[type="checkbox"].toggle-button:hover:active:checked{
+		border-color: var(--uwp-tags-checkbox-checked-active) !important;
+	}
+	input[type="checkbox"].toggle-button::before, input + .slider::before {
+	    background: var(--uwp-tags-checkbox) !important;
+	    height: 10px !important;
+	    width: 10px !important;
+	    outline: none !important;
+		margin: 0px !important;
+		transition: transform 200ms !important;
+		transform: translateX(-5px) translateY(-5px) !important;
+	}
+	input[type="checkbox"].toggle-button:hover::before, input:hover + .slider::before {
+		background: var(--uwp-tags-checkbox-checked-hover) !important;
+	}
+	input[type="checkbox"].toggle-button:checked::before, input:checked + .slider::before {
+		background: var(--uwp-tags-toggle-checked) !important;
+		transform: translateX(19px) translateY(-5px) !important;
+	}
+	.slider::before {
+		bottom: 0px !important;
+		inset-inline-start: 0px !important;
+		display: block !important;
+	}
+	input[type="checkbox"] + .slider {
+		border: 2px solid var(--uwp-tags-checkbox) !important;
+		background-color: transparent !important;
+	}
+	input[type="checkbox"]:is(:active, :checked:active, :hover:active) + .slider {
+		border-color: var(--uwp-tags-checkbox-checked-active) !important;
+		background-color: var(--uwp-tags-checkbox-checked-active) !important;
+	}
+	input[type="checkbox"]:is(:checked) + .slider {
+		border-color: -moz-accent-color !important;
+		background: -moz-accent-color !important;
+	}
+	input[type="checkbox"] + .slider::before {
+		transform: translateX(3px) translateY(-3px) !important;
+	}
+	input[type="checkbox"]:checked + .slider::before {
+		transform: translateX(27px) translateY(-3px) !important;
+	}
+
+	/* Number Input */
+	input[type="number"]::-moz-number-spin-box {
+		display: none !important;
+	}
+
+	/* Radio Button */
+	radio {
+		opacity: 1 !important;
+	}
+	input[type="radio"] {
+		-moz-appearance: none !important;
+		border: 2px solid var(--uwp-tags-radio-border) !important;
+		border-radius: 100% !important;
+		background: transparent !important;
+		margin-right: 5px !important;
+		box-shadow: none !important;
+		width: auto !important;
+		height: auto !important;
+		list-style: none !important;
+	}
+	input[type="radio"]:hover {
+		border: 2px solid var(--uwp-tags-radio-border-hover) !important;
+	}
+	input[type="radio"]:hover:active {
+		border: 2px solid var(--uwp-tags-radio-border-active) !important;
+	}
+	input[type="radio"]:checked {
+		border: 2px solid -moz-accent-color !important;
+	}
+	input[type="radio"]:checked:hover {
+		border: 2px solid -moz-accent-color !important;
+	}
+	input[type="radio"]:checked:hover:active {
+		border: 2px solid #999999 !important;
+	}
+	input[type="radio"]::before {
+		display: block !important;
+		content: "" !important;
+		background: transparent !important;
+		height: 10px !important;
+		width: 10px !important;
+		margin: 3px !important;
+		border-radius: 10px !important;
+	}
+	input[type="radio"]:checked::before {
+		background: var(--uwp-tags-radio-border) !important;
+	}
+	input[type="radio"]:checked:hover::before {
+		background: var(--uwp-tags-radio-border-hover) !important;
+	}
+	input[type="radio"]:checked:hover:active::before {
+		background: var(--uwp-tags-radio-border-active) !important;
+	}
+	input[type="radio"] + span {
+		position: relative !important;
+		bottom: 0px !important;
+	}
+	/* Old radio buttons */
+	radio > .radio-check {
+		-moz-context-properties: fill !important;
+		-moz-appearance: none !important;
+		padding: 8px !important;
+		border: 2px solid var(--uwp-tags-radio-border) !important;
+		border-radius: 100% !important;
+		background: transparent !important;
+		margin-right: 5px !important;
+		box-shadow: none !important;
+		width: auto !important;
+		height: auto !important;
+	}
+	radio:hover > .radio-check {
+		border: 2px solid var(--uwp-tags-radio-border-hover) !important;
+	}
+	radio:hover:active > .radio-check {
+		border: 2px solid var(--uwp-tags-radio-border-active) !important;
+	}
+	radio[selected="true"] > .radio-check {
+		padding: 0px !important;
+		fill: var(--uwp-tags-radio-border) !important;
+		list-style-image: url("chrome://global/skin/icons/radio.svg") !important;
+		border: 2px solid -moz-accent-color !important;
+	}
+	radio[selected="true"]:hover > .radio-check {
+		fill: var(--uwp-tags-radio-border-hover) !important;
+		border: 2px solid -moz-accent-color !important;
+	}
+	radio[selected="true"]:hover:active > .radio-check {
+		fill: var(--uwp-tags-radio-border-active) !important;
+		border: 2px solid var(--uwp-tags-radio-border-active) !important;
+	}
+	/* Radio Button Disabled */
+	radio[disabled="true"] > .radio-label-box {
+		color: var(--uwp-tags-checkbox-disabled) !important;
+	}
+	radio[disabled="true"] > .radio-check {
+		border: 2px solid var(--uwp-tags-checkbox-disabled) !important;
+	}
+	radio[disabled="true"]:hover > .radio-check {
+		border: 2px solid  var(--uwp-tags-checkbox-disabled) !important;
+	}
+	radio[disabled="true"]:active > .radio-check {
+		border: 2px solid var(--uwp-tags-checkbox-disabled) !important;
+	}
+	radio[disabled="true"][selected="true"] > .radio-check {
+		border: 2px solid var(--uwp-tags-checkbox-disabled) !important;
+	}
+	radio[disabled="true"][selected="true"]:hover > .radio-check {
+		border: 2px solid var(--uwp-tags-checkbox-disabled) !important;
+	}
+	radio > .radio-label-box {
+		margin-left: 5px !important;
+		outline: none !important;
+	}
+
+	input[type="range"] {
+		-moz-appearance: none !important;
+		border: none !important;
+		background: var(--uwp-tags-slider) !important;
+		height: 2px !important;
+	}
+	input[type="range"]:hover {
+		background: var(--uwp-tags-slider-hover) !important;
+	}
+	input[type="range"]::-moz-range-progress {
+		background: -moz-accent-color !important;
+		height: 2px !important;
+	}
+	input[type="range"]::-moz-range-thumb {
+		background: -moz-accent-color !important;
+		border: none !important;
+		width: 20px !important;
+		height: 20px !important;
+		border-radius: 50% !important;
+	}
+
+	a, label[href] {
+		color: -moz-accent-color !important;
+	}
+	a:hover, label[href]:hover {
+		color: #999999 !important;
+	}
+	a:hover:active, label[href]:hover:active {
+		color: #666666 !important;
+	}
+	a:visited, label[href]:visited {
+		color: gray !important;
+	}
+
+	scrollbar {
+		scrollbar-color: var(--uwp-scrollbar-thumb) transparent !important;
+		scrollbar-width: thin;
+		margin-left: -8px !important;
+		margin-top: 17px !important;
+		margin-bottom: 17px !important;
+	}
+	scrollbar:hover {
+		scrollbar-color: var(--uwp-scrollbar-thumb) var(--uwp-scrollbar) !important;
+		scrollbar-width: auto;
+		margin-left: -17px !important;;
+		margin-top: 0px !important;
+		margin-bottom: 0px !important;
+	}
+
+	.toolbarbutton-text {
+		color: inherit !important;
+	}
+
+	groupbox {
+		-moz-appearance: none !important;
+		border: none !important;
+	}
+	/* Tree stuff */
+	/* This code only works on Firefox <=62 */
+	treechildren {
+		background-color: var(--uwp-global-back) !important;
+		color: lightgray !important;
+		--treechildren-outline: none !important;
+		--treechildren-focusColor: rgb(123,195,255) !important;
+		--treechildren-selectedFocusColor: rgb(205,232,255) !important;
+		--treechildren-currentColor: rgb(125,162,206) !important;
+		--treechildren-hoverColor: rgb(229,243,255) !important;
+		--treechildren-selectedBorder: rgb(80,80,80) !important;
+		--treechildren-selectedBackground: rgb(80,80,80) !important;
+		--treechildren-currentFocusBorder: var(--treechildren-focusColor) !important;
+		--treechildren-selectedFocusBorder: rgb(100,100,100) !important;
+		--treechildren-selectedFocusBackground: rgb(100,100,100) !important;
+		--treechildren-selectedFocusCurrentBorder: rgb(100,100,100) !important;
+		--treechildren-selectedFocusCurrentBackground: rgb(100,100,100) !important;
+		--treechildren-hoverBorder: rgb(35,35,35) !important;
+		--treechildren-hoverBackground: rgb(35,35,35) !important;
+		--treechildren-hoverCurrentBorder: var(--treechildren-currentColor) !important;
+		--treechildren-hoverCurrentBackground: rgba(131,183,249,.16) !important;
+		--treechildren-hoverSelectedBorder: rgb(120,120,120) !important;
+		--treechildren-hoverSelectedBackground: rgb(120,120,120) !important;
+		--organizer-border-color-selected: none !important;
+	}
+	/* Firefox >= 63 */
+	treechildren::-moz-tree-image {
+		fill: var(--uwp-global-front) !important;
+	}
+	treechildren::-moz-tree-twisty {
+		fill: var(--uwp-global-front) !important;
+	}
+	treechildren::-moz-tree-row {
+		background-color: var(--uwp-global-back) !important;
+	}
+	treechildren::-moz-tree-row(hover) {
+		background-color: var(--uwp-tags-treechildren-row-hover) !important;
+	}
+	treechildren::-moz-tree-row(selected) {
+		background-color: var(--uwp-tags-treechildren-row-selected)  !important;
+		border: none !important;
+	}
+	treechildren::-moz-tree-cell-text {
+		color: var(--uwp-global-front) !important;
+	}
+	treechildren::-moz-tree-cell-text(hover) {
+		color: var(--uwp-global-front) !important;
+	}
+	treechildren::-moz-tree-cell-text(selected) {
+		color: var(--uwp-global-front) !important;
+	}
+	tree {
+		-moz-appearance: none !important;
+		border: none !important;
+	}
+	treecol {
+		-moz-appearance: none !important;
+		color: var(--uwp-global-front) !important;
+		background-color: var(--uwp-tags-treecol) !important;
+		height: 22px !important;
+	}
+	treecol:hover, .treecol-image:hover {
+		background-color: var(--uwp-tags-treecol-hover) !important;
+	}
+	treecol:active, .treecol-image:active {
+		background-color: var(--uwp-tags-treecol-selected) !important;
+	}
+	#placesView > splitter {
+		border-inline-end: 1px solid var(--organizer-border-color) !important;
+	}
+	#detailsDeck {
+		border-top: 1px solid rgb(40,40,40) !important;
+	}
+	.tree-splitter {
+		width: 1px !important;
+		max-width: 1px !important;
+		-moz-appearance: none !important;
+		border: 1px solid rgb(100,100,100) !important;
+	}
+	treecol[hidden="true"] + .tree-splitter {
+		border: none !important;
+		width: 0px !important;
+		max-width: 0px !important;
+	}
+	.treecol-image {
+		-moz-appearance: none !important;
+		background-color: rgb(25, 25, 25) !important;
+	}
+	treecol[sortDirection="descending"]:not([hideheader="true"]) > *.treecol-sortdirection, .treecol-sortdirection[sortDirection="descending"] {
+		list-style-image: var(--uwp-dropmarker) !important;
+		width: 14px !important;
+		height: 10px !important;
+	}
+	treecol[sortDirection="ascending"]:not([hideheader="true"]) > *.treecol-sortdirection, .treecol-sortdirection[sortDirection="ascending"] {
+		list-style-image: var(--uwp-dropmarker) !important;
+		transform: rotate(180deg);
+		width: 14px !important;
+		height: 10px !important;
+	}
+	listheader {
+		box-shadow: none !important;
+		padding-bottom: 0px !important;
+		border: none !important;
+		border-radius: 0px !important;
+	}
+
+	/* Removes padding effect on click */
+	treecol {
+		padding: 0px 10px !important;
+	}
+	treecol:active {
+		padding: 0px 10px !important;
+	}
+	treecols {
+		border-bottom: 0px !important;
+	}
+	treecol[hideheader="true"], treecol[hideheader="true"] > .treecol-image {
+		padding: 0px !important;
+		height: 0px !important;
+	}
+	.treecol-image {
+		padding: 5px 10px !important;
+	}
+	.tree-columnpicker-icon {
+		filter: invert(1);
+	}
+
+	/* Richlist Stuff */
+	richlistbox, .options-container {
+		-moz-appearance: none !important;
+		background-color: transparent !important;
+		border: none !important;
+		border-radius: 0px !important;
+	}
+	richlistitem, .options-container .option {
+		background-color: transparent !important;
+		color: var(--uwp-global-front) !important;
+		border-radius: 0px !important;
+	}
+	.options-container .option {
+		padding-left: 10px !important;
+	}
+	richlistitem:hover, .options-container .option:hover {
+		background-color: var(--uwp-tags-richlistitem-hover) !important;
+	}
+	richlistitem:hover:active, .options-container .option:hover:active {
+		background-color: var(--uwp-tags-richlistitem-active) !important;
+	}
+	richlistitem[selected="true"] {
+		background-image: none !important;
+		background-clip: border-box !important;
+		outline: none !important;
+		background-color: var(--uwp-tags-richlistitem-selected) !important;
+	}
+	richlistbox:focus-visible {
+		border: none !important;
+		box-shadow: none !important;
+		outline: none !important;
+	}
+	.downloadButton:hover > .button-box > .button-icon {
+		fill: -moz-accent-color !important;
+	}
+	progressmeter, progress {
+		-moz-appearance: none !important;
+		border: none !important;
+		background: var(--uwp-tags-progressbar) !important;
+		height: 8px !important;
+		border-radius: 0px !important;
+	}
+	progressmeter > .progress-bar, progress::-moz-progress-bar {
+		background-color: -moz-accent-color !important;
+		margin: 0px !important;
+		border-radius: 0px !important;
+	}
+	progressmeter[paused="true"] > .progress-bar, progress[paused]::-moz-progress-bar  {
+		background-color: GrayText !important;
+	}
+	progressmeter[mode="undetermined"] > .progress-bar, progress:not([value])::-moz-progress-bar {
+		background-image: none !important;
+		animation: none !important;
+	}
+	progressmeter > .progress-remainder {
+		border: none !important;
+		background: #333333 !important;
+	}
+	/* Customization Page */
+	#customization-content-container {
+		background-color: var(--uwp-global-back) !important;
+	}
+	#customization-footer {
+		border-top: none !important;
+		background-color: var(--uwp-bottom-background) !important;
+	}
+	.customizationmode-button {
+		border-radius: 0px !important;
+	}
+	.mainContainer, .tabmodalprompt-mainContainer {
+		color: white !important;
+		background-color: black !important;
+		border-radius: 0px !important;
+		border: 1px solid -moz-accent-color !important;
+		animation: fadeInScale .3s;
+	}
+	tabmodalprompt {
+		background: none !important;
+		background-color: #00000090 !important;
+		animation: fadeInOpacity .3s;
+	}
+	.buttonContainer > button {
+		padding: 4.5px !important;
+	}
+	/* Dev Tools */
+	.devtools-tab, .breadcrumbs-widget-item, .tooltip-container button {
+		border: none !important;
+		background: transparent !important;
+	}
+	.devtools-tab:hover, .breadcrumbs-widget-item:hover, .tooltip-container button:hover {
+		border: none !important;
+		background: #353535 !important;
+	}
+	.devtools-tab:hover:active, .breadcrumbs-widget-item:hover:active, .tooltip-container button:hover:active {
+		border: none !important;
+	}
+	.devtools-tab-line {
+		background: -moz-accent-color !important;
+	}
+	.devtools-button {
+		border-radius: 0px !important;
+		background: transparent !important;
+		border: none !important;
+	}
+	.devtools-button:hover {
+		background: #353535 !important;
+		border: none !important;
+	}
+	.devtools-button:hover:active {
+		border: none !important;
+	}
+	.styleinspector-propertyeditor {
+		color: black !important;
+	}
+
+	/* Permissions */
+	.identity-popup-permission-remove-button:not(:-moz-focusring):hover > .button-box > .button-icon {
+		fill: currentColor !important;
+	}
+	.identity-popup-expander {
+		border: none !important;
+		background: url("chrome://global/skin/icons/arrow-left.svg") center no-repeat !important;
+	}
+	.identity-popup-expander:hover, .identity-popup-expander[open] {
+		border: none !important;
+	}
+	.identity-popup-expander:hover:active {
+		border: none !important;
+		fill: currentColor !important;
+		background: url("chrome://global/skin/icons/arrow-left.svg") center no-repeat !important;
+		background-color: var(--arrowpanel-dimmed-further) !important;
+	}
+
+	.external {
+		color: -moz-accent-color !important;
+	}
+	.external::after {
+		fill: -moz-accent-color !important;
+	}
+
+	@keyframes fadeInScale {
+		from {
+			opacity: 0;
+			transform: scale(1.05);
+		}
+		to {
+			opacity: 1;
+			transform: scale(1.0);
+		}
+	}
+	@keyframes fadeInOpacity {
+		from {
+			opacity: 0;
+		}
+		to {
+			opacity: 1;
+		}
+	}
+	@keyframes fadeInTransformUp {
+		from {
+			transform: translate(0px, 80px);
+			opacity: 0;
+		}
+		to {
+			transform: translate(0px, 0px);
+			opacity: 1;
+		}
+	}
+
+}
