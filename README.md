@@ -70,6 +70,7 @@ I'm not a developer, I usually report issues...  But I wanted a Fluent style Fir
  3. Make changes to this repository and make a pull request if you want (don't hesitate)(feel free to do this.)
  4. Star the repository if you like it or you downloaded it. 
  5. Encourage other people to use Firefox. 
+ 6. Please give me and the contributors of this repository credit if you have a repository that uses some of the code in this repository. 
 
 ## News 
 
