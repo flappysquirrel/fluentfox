@@ -88,8 +88,7 @@ Talking with the MaterialFox project for changing the loading animation of tabs 
 
 ## Clues
 These are the reasons for the new projects guess what names I'll give them.
- Rounded corners
- Windows 11
+ macOS (Safari)
  Edge(Chromium)
  
 ## New combination's changes (Firefox UWP style)
