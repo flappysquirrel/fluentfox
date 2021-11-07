@@ -20,6 +20,31 @@
   New Combination! 
   More coming soon...
 
+## About
+A combination of FluentDotFirefox, Firefox-91plus-photon-userchrome-master and Firefox UWP style! The goal is to make an exact replica of Microsoft Edge™ Legacy in Mozilla Firefox.
+I'm not a developer, I usually report issues...  But I wanted a Fluent style Firefox for everyone to use. So, I created this repository. 
+
+##  Development of this repository takes a lot of time. I made a lot of commits and changes to this repository. Ali.sh also made some formatting changes to readme.md. So, in case you're using some of the code or made modifications please give this repository and its contributors credit.  
+
+## News 
+
+New Combination! (Firefox UWP style project) Details below. 
+
+2 New projects coming soon! (Guess what they are)
+Clues below 
+
+Microsoft edge (chromium) is getting fluent design. Soon edge (chromium) will look like edge (legacy)(with rounded corners)
+
+Works on Windows 11 as well!
+
+Talking with the MaterialFox project for changing the loading animation of tabs in Firefox. 
+(Again any help from the MaterialFox team or anyone in github is allowed! Any help is appreciated email yuvanmichael@outlook.com pull requests can also be made your choice.) Feel free to post any issues as well! 
+
+## Clues
+These are the reasons for the new projects guess what names I'll give them.
+ macOS (Safari)
+ Edge(Chromium)
+
 ## Install
 
 ### ![Picture 1](https://user-images.githubusercontent.com/86945563/138727515-0171f4ad-de9d-4697-b1c0-76169382dbd7.png)
@@ -54,11 +79,19 @@ Enjoy!
 ## For better experience
   go to about:config in firefox and type general.smoothScroll.msdPhysics.enabled and set it to true.
 
-## About
-A combination of FluentDotFirefox, Firefox-91plus-photon-userchrome-master and Firefox UWP style! The goal is to make an exact replica of Microsoft Edge™ Legacy in Mozilla Firefox.
-I'm not a developer, I usually report issues...  But I wanted a Fluent style Firefox for everyone to use. So, I created this repository. 
+## New combination's changes (Firefox UWP style)
 
-##  Development of this repository takes a lot of time. I made a lot of commits and changes to this repository. Ali.sh also made some formatting changes to readme.md. So, in case you're using some of the code or made modifications please give this repository and its contributors credit.  
+   ![Picture 2](https://user-images.githubusercontent.com/86945563/138728674-040eb630-f6d0-466c-9192-af47071db6c4.png)
+
+
+   ![Picture 3](https://user-images.githubusercontent.com/86945563/138728036-e06293a8-9954-4b94-bb10-524a19aadc7b.png)
+
+  ![Picture 5](https://user-images.githubusercontent.com/86945563/138819145-93b9e040-4b46-4b2b-8d09-a7b47a7c3a34.png)
+  
+  ![Picture 6](https://user-images.githubusercontent.com/86945563/138819315-fa1a9212-9d30-4328-8e63-882e4ea6b453.png)
+  
+  ![Picture 7](https://user-images.githubusercontent.com/86945563/138819381-8200d811-0cef-4aa3-ad11-aa84effb879c.png)
+
 
 ## Payments
 
