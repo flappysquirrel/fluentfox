@@ -125,19 +125,6 @@ These are the reasons for the new projects guess what names I'll give them.
  macOS (Safari)
  Edge(Chromium)
  
-## New combination's changes (Firefox UWP style)
-
-   ![Picture 2](https://user-images.githubusercontent.com/86945563/138728674-040eb630-f6d0-466c-9192-af47071db6c4.png)
-
-
-   ![Picture 3](https://user-images.githubusercontent.com/86945563/138728036-e06293a8-9954-4b94-bb10-524a19aadc7b.png)
-
-  ![Picture 5](https://user-images.githubusercontent.com/86945563/138819145-93b9e040-4b46-4b2b-8d09-a7b47a7c3a34.png)
-  
-  ![Picture 6](https://user-images.githubusercontent.com/86945563/138819315-fa1a9212-9d30-4328-8e63-882e4ea6b453.png)
-  
-  ![Picture 7](https://user-images.githubusercontent.com/86945563/138819381-8200d811-0cef-4aa3-ad11-aa84effb879c.png)
-
 
 
 ## Credits
