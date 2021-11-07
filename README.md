@@ -43,6 +43,8 @@ Talking with the MaterialFox project for changing the loading animation of tabs 
 ## Clues
 These are the reasons for the new projects guess what names I'll give them.
  Edge(Chromium)
+ Sun Valley
+ Windows 11
 
 ## Install
 
