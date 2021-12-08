@@ -48,7 +48,7 @@ Talking with the MaterialFox project for changing the loading animation of tabs 
 ### ![Picture 1](https://user-images.githubusercontent.com/86945563/138727515-0171f4ad-de9d-4697-b1c0-76169382dbd7.png)
 
 
-How to install
+## How to install
 
 If you want to try it out, do this.
 
