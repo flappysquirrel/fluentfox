@@ -3,7 +3,9 @@
   Make Firefox look like edge legacy
   
 # New Repository Launched! Check it out! https://github.com/guywhoreportsissues/FluentWin11
-  
+
+  ## Please star or this repository if you saw it. 
+
 ## Help needed! 
   I need some help with changing the loading animation of tabs in firefox.
   Any kind of help is appreciated! 
@@ -32,20 +34,14 @@ I'm not a developer, I usually report issues...  But I wanted a Fluent style Fir
 
 New Combination! (Firefox UWP style project) Details below. 
  
-2 New projects coming soon! 1 Launched! https://github.com/guywhoreportsissues/FluentWin11 (Guess what the other one's its name will be)
-Clues below 
+New repository launched! https://github.com/guywhoreportsissues/FluentWin11 
 
 Microsoft edge (chromium) is getting fluent design. Soon edge (chromium) will look like edge (legacy)(with rounded corners)
 
 Works on Windows 11 as well!
 
 Talking with the MaterialFox project for changing the loading animation of tabs in Firefox. 
-(Again any help from the MaterialFox team or anyone in github is allowed! Any help is appreciated email yuvanmichael@outlook.com pull requests can also be made your choice.) Feel free to post any issues as well! 
-
-## Clues
-These are the reasons for the new projects guess what names I'll give them.
- 
- Edge(Chromium)
+(Again any help from the MaterialFox team or anyone in github is allowed! Any help is appreciated email yuvanmichael@outlook.com pull requests can also be made your choice.) Feel free to post any issues as well!
 
 ## Install
 
