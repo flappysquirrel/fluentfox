@@ -4,7 +4,7 @@
   
 # New Repository Launched! Check it out! https://github.com/guywhoreportsissues/FluentWin11
 
-  ## Please star or this repository if you saw it. 
+  ## Please star or watch this repository if you saw it. 
 
 ## Help needed! 
   I need some help with changing the loading animation of tabs in firefox.
