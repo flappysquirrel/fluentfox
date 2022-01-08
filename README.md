@@ -28,20 +28,16 @@
 A combination of FluentDotFirefox, Firefox-91plus-photon-userchrome-master and Firefox UWP style! The goal is to make an exact replica of Microsoft Edge™ Legacy in Mozilla Firefox.
 I'm not a developer, I usually report issues...  But I wanted a Fluent style Firefox for everyone to use. So, I created this repository. 
 
-##  Development of this repository takes a lot of time. I made a lot of commits and changes to this repository. Ali.sh also made some formatting changes to readme.md. So, in case you're using some of the code or made modifications please give this repository and its contributors credit.  
-
 ## News 
 
 New Combination! (Firefox UWP style project) Details below. 
  
 New repository launched! https://github.com/guywhoreportsissues/FluentWin11 
 
-Microsoft edge (chromium) is getting fluent design. Soon edge (chromium) will look like edge (legacy)(with rounded corners)
+Microsoft edge (chromium) is getting fluent design. Soon edge (chromium) will look like edge (legacy)(with rounded corners)(Now on Windows 11)
 
-Works on Windows 11 as well!
+This repository Works on Windows 11 as well!
 
-Talking with the MaterialFox project for changing the loading animation of tabs in Firefox. 
-(Again any help from the MaterialFox team or anyone in github is allowed! Any help is appreciated email yuvanmichael@outlook.com pull requests can also be made your choice.) Feel free to post any issues as well!
 
 ## Install
 
@@ -101,8 +97,7 @@ Enjoy!
  3. Make changes to this repository and make a pull request if you want (don't hesitate)(feel free to do this.)
  4. Star the repository if you like it or you downloaded it. 
  5. Encourage other people to use Firefox. 
- 6. Please give me and the contributors of this repository credit if you have a repository that uses some of the code in this repository. 
-
+ 6. Please provide links to this repository in yours if you have a repository that uses some of the code in this repository. 
 
 
 ## Credits
@@ -115,8 +110,7 @@ Thanks to moderpach for FluentDotFirefox
 
 Thanks to pellaeon for firefox-91plus-photon-userchrome-master 
 
-And last but not the least...
-Ali.sh (for making some changes to readme.md) Thanks ali
+Ali.sh (for making some changes to readme.md) 
 
 ## Contributing
 
