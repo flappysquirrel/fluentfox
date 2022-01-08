@@ -46,25 +46,16 @@ This repository Works on Windows 11 as well!
 
 ## How to install
 
-If you want to try it out, do this.
-
-Click code button and then click download zip to download this project so you can use this on Firefox
-
-Extract the folder
-
-go to about:config in firefox.
-
-type or copy and paste toolkit.legacyUserProfileCustomizations.stylesheets and change it to true.
-
-If it is already true leave it alone!
-
-now go to about:support in firefox.
-
-click on open directory.
-
-Paste the chrome folder
-
-Restart Firefox
+  1. Go to about config in firefox. and paste toolkit.legacyUserProfileCustomizations.stylesheets and set it to true. 
+  2. In firefox go the menu
+  3. Help
+  4. More Troubleshooting Information
+  5. Open directory or open folder for your profile
+  6. Download this repository by Clicking on code and Download zip
+  7. Extract the file
+  8. Copy and Paste the chrome folder in your firefox profile (The open directory thing)
+  9. Restart firefox
+  10. Enjoy!
 
 Note: If you don't like the tab size you can change it by going to about:config again and paste browser.tabs.tabMinWidth and change it to the number you want. This is because the density setting in customize toolbar feature of Firefox does not change the tab size. This little tweak is easy to do and requires only a couple of clicks. 
 
