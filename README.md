@@ -95,11 +95,11 @@ Enjoy!
 
 I'm giving credit to these people since it helped me in making this repository awesome!
 
-Big thanks to Guerra24 and RamonEdbon for Firefox UWP style which has bought a lot of changes! 
+Big thanks to Guerra24 and RamonEdbon for Firefox UWP style which has bought a lot of changes! https://github.com/Guerra24/Firefox-UWP-Style 
 
-Thanks to moderpach for FluentDotFirefox 
+Thanks to moderpach for FluentDotFirefox https://github.com/Moderpach/FluentDotFirefox 
 
-Thanks to pellaeon for firefox-91plus-photon-userchrome-master 
+Thanks to pellaeon for firefox-91plus-photon-userchrome-master https://github.com/pellaeon/firefox-91plus-photon-userchrome 
 
 Ali.sh (for making some changes to readme.md) 
 
