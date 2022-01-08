@@ -111,6 +111,8 @@ Anyone will be able to make changes to this repository!
 
 Make a pull request and I shall merge it or contact you if needed.
 
+Email yuvanmichael@outlook.com
+
 All contributions are welcome!
 
 :) 
