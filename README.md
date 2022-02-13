@@ -91,7 +91,7 @@ Enjoy!
  6. Please provide links to this repository in yours if you have a repository that uses some of the code in this repository. 
 
 
-## Credits
+## Thanks to
 
 I'm giving credit to these people since it helped me in making this repository awesome!
 
