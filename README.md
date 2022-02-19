@@ -16,12 +16,12 @@
 
 ## Improvements
 
-  New look and feel!
-  New code!
-  Better visuals!
-  Easier to install manually!
-  Some Improvements to readme.md
-  New Combination! 
+  >New look and feel!
+  >New code!
+  >Better visuals!
+  >Easier to install manually!
+  >Some Improvements to readme.md
+  >New Combination! 
   More coming soon...
 
 ## About
