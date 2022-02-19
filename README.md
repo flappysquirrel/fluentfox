@@ -4,7 +4,7 @@
   
 # New Repository Launched! Check it out! https://github.com/YuvanMichael/FluentWin11
 
-  ## Please star or watch this repository if you saw it. 
+  ## Please star or watch this repository if you saw it. 🙂️
 
 ## Help needed! 
   I need some help with changing the loading animation of tabs in firefox.
@@ -15,7 +15,7 @@
 
 
 ## Improvements
-NOTE: These lines are a mistake. But, to me they looked like they have a cool 3D stairs like effect to them.  
+NOTE: These lines are a mistake. But, to me they looked like they have a cool 3D stairs like effect to them. 😀️
   >New look and feel!
   >>New code!
   >>>Better visuals!
@@ -105,14 +105,14 @@ Ali.sh (for making some formatting changes to readme.md)
 
 ## Contributing
 
-I will check this often.
+>I will check this often.
 
-Anyone will be able to make changes to this repository!
+>>Anyone will be able to make changes to this repository!
 
-Make a pull request and I shall merge it or contact you if needed.
+>>>Make a pull request and I shall merge it or contact you if needed.
 
-Email yuvanmichael@outlook.com
+>>>>Email yuvanmichael@outlook.com
 
-All contributions are welcome!
+>>>>>All contributions are welcome!
 
-:) 
+🙂️
