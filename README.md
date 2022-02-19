@@ -57,7 +57,7 @@ This repository Works on Windows 11 as well!
   9. Restart firefox
   10. Enjoy!
 
-Note: If you don't like the tab size you can change it by going to about:config again and paste browser.tabs.tabMinWidth and change it to the number you want. This is because the density setting in customize toolbar feature of Firefox does not change the tab size. This little tweak is easy to do and requires only a couple of clicks. 
+>Note: If you don't like the tab size you can change it by going to about:config again and paste browser.tabs.tabMinWidth and change it to the number you want. This is because the density setting in customize toolbar feature of Firefox does not change the tab size. This little tweak is easy to do and requires only a couple of clicks. 
 
 Enjoy!
 
