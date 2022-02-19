@@ -22,7 +22,7 @@ NOTE: These lines are a mistake. But, to me they looked like they have a cool 3D
   >>>>Easier to install manually!
   >>>>>Some Improvements to readme.md
   >>>>>>New Combination! 
-  >More coming soon...
+  >>>>>>>More coming soon...
 
 ## About
 A combination of FluentDotFirefox, Firefox-91plus-photon-userchrome-master and Firefox UWP style! The goal is to make an exact replica of Microsoft Edge™ Legacy in Mozilla Firefox.
