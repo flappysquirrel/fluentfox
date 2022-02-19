@@ -2,7 +2,7 @@
 
   Make Firefox look like edge legacy
   
-# New Repository Launched! Check it out! https://github.com/guywhoreportsissues/FluentWin11
+# New Repository Launched! Check it out! https://github.com/YuvanMichael/FluentWin11
 
   ## Please star or watch this repository if you saw it. 
 
@@ -32,7 +32,7 @@ I'm not a developer, I usually report issues...  But I wanted a Fluent style Fir
 
 New Combination! (Firefox UWP style project) Details below. 
  
-New repository launched! https://github.com/guywhoreportsissues/FluentWin11 
+New repository launched! https://github.com/YuvanMichael/FluentWin11
 
 Microsoft edge (chromium) is getting fluent design. Soon edge (chromium) will look like edge (legacy)(with rounded corners)(Now on Windows 11)
 
@@ -101,7 +101,7 @@ Thanks to moderpach for FluentDotFirefox https://github.com/Moderpach/FluentDotF
 
 Thanks to pellaeon for firefox-91plus-photon-userchrome-master https://github.com/pellaeon/firefox-91plus-photon-userchrome 
 
-Ali.sh (for making some changes to readme.md) 
+Ali.sh (for making some formatting changes to readme.md) 
 
 ## Contributing
 
