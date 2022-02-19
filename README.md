@@ -15,7 +15,7 @@
 
 
 ## Improvements
-
+NOTE: These lines are a mistake. But, to me they looked like they have a cool 3D stairs like effect to them.  
   >New look and feel!
   >>New code!
   >>>Better visuals!
