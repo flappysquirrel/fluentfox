@@ -23,6 +23,10 @@ NOTE: These lines are a mistake. But, to me they looked like they have a cool 3D
   >>>>>>New Combination! 
   >>>>>>>More coming soon...
 
+## Known Issues 
+I have encountered these myself. No one as put an issue yet. 
+The tab text is a bit off to the top. Going to get fixed soon. (Maybe because of changes in firefox proton) 
+
 ## About
 A combination of FluentDotFirefox, Firefox-91plus-photon-userchrome-master and Firefox UWP style! The goal is to make an exact replica of Microsoft Edge™ Legacy in Mozilla Firefox.
 I'm not a developer, I usually report issues...  But I wanted a Fluent style Firefox for everyone to use. So, I created this repository. 
