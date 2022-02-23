@@ -21,11 +21,7 @@ NOTE: These lines are a mistake. But, to me they looked like they have a cool 3D
   >>>>Easier to install manually!
   >>>>>Some Improvements to readme.md
   >>>>>>New Combination! 
-  >>>>>>>More coming soon...
-
-## Known Issues 
-I have encountered these myself. No one as put an issue yet. 
-The tab text is a bit off to the top. Going to get fixed soon. (Maybe because of changes in firefox proton) 
+  >>>>>>>More coming soon... 
 
 ## About
 A combination of FluentDotFirefox, Firefox-91plus-photon-userchrome-master and Firefox UWP style! The goal is to make an exact replica of Microsoft Edge™ Legacy in Mozilla Firefox.
