@@ -98,7 +98,7 @@ Thanks to moderpach for FluentDotFirefox https://github.com/Moderpach/FluentDotF
 
 Thanks to pellaeon for firefox-91plus-photon-userchrome-master https://github.com/pellaeon/firefox-91plus-photon-userchrome 
 
-Ali.sh (for making some formatting changes to readme.md) 
+Ali.sh (for making some formatting changes to readme.md) Although most if not all. Are made by me. 
 
 ## Contributing
 
