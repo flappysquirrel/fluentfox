@@ -110,7 +110,7 @@ Ali.sh (for making some formatting changes to readme.md) Although most if not al
 
 >>>Make a pull request and I shall merge it or contact you if needed.
 
->>>>Email yuvanmichael@outlook.com
+>>>>Email yuvanmichaelvivenzi@protonmail.com
 
 >>>>>All contributions are welcome!
 
